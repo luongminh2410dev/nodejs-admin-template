@@ -1,0 +1,46 @@
+{
+  "name": "admin-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/style.scss src/public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virutphalangxa/Church_Manager.git"
+  },
+  "keywords": [
+    "church",
+    "manager",
+    "nodejs",
+    "website"
+  ],
+  "author": "minhdev2410",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virutphalangxa/Church_Manager/issues"
+  },
+  "homepage": "https://github.com/virutphalangxa/Church_Manager#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "express-session": "^1.17.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "minimist": "^1.2.6",
+    "mongoose": "^6.2.7",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1"
+  }
+}
